@@ -31,11 +31,4 @@ const invokeAction = async ({action,id,name,email,phone}) => {
 const { argv } = yargs(process.argv.slice(2))
 invokeAction(argv)
 
-// invokeAction({action: "list"})
-// invokeAction({action: "getById",id:"AeHIrLTr6JkxGE6SN-0Rw"})
-// invokeAction({action: "addContact",name:"normalno",email:"popka@gmail.com",phone:"0632147070"})
-// invokeAction({ action: "removeById", id: "wLOZ7oLqgduxlgMK7DYjX" })
-// invokeAction({action: "updateContactById",id:"JmDSsJGCrd1GUonjkWJlE",name:"Hello Mir",email:"popka@gmail.com",phone:"0632147070"})
-
-
 
